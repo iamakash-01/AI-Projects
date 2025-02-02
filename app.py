@@ -13,6 +13,9 @@ client = Groq(
 
 # web app design
 st.set_page_config("Ultron Bot", page_icon="🤖", layout="wide")
+st.title("ULTRON BOT")
+ultron_image_url = "/home/akash/Pictures/bot.png"
+st.image(ultron_image_url, width=300, use_container_width=False)
 st.subheader("A Bot from the Future", divider="rainbow")
 
 # initialise chat history
